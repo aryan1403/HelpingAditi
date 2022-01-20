@@ -17,8 +17,8 @@ public class App {
 
         String json = new StringBuilder()
                 .append("{")
-                .append("\"name\":\"mkyong\",")
-                .append("\"notes\":\"hello\"")
+                .append("\"name\":\"meow\",")
+                .append("\"age\":\"15\"")
                 .append("}").toString();
 
         var request = HttpRequest.newBuilder()
